@@ -16,11 +16,24 @@ h1 {
 }
 
 .box1 {
-  background-color: gray;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 2px solid black;
 }
 
 .box2 {
-  background-color: gray;
+  background-color: beige;
+  font-size: 2rem;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  display: flex;
+  text-align: center;
 }
 
 .border > p {
@@ -38,4 +51,9 @@ p.center {
 
 .card {
   background-color: 0;
+}
+
+.img {
+  height: 500px;
+  text-align: center;
 }
