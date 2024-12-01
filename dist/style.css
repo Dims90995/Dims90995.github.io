@@ -35,3 +35,7 @@ p.center {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+.card {
+  background-color: 0;
+}
