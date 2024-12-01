@@ -1,11 +1,20 @@
 body {
   font-size: 1rem;
-  padding: 2%;
+  padding: 7.5%;
+  border-left: 150px solid black;
+  border-right: 150px solid black;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0;
 }
 
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
   text-align: center;
-  font-size: 2rem;
+  font-size: 10rem;
   background-color: beige;
 }
 
@@ -16,16 +25,23 @@ h1 {
 }
 
 .box1 {
-  background-color: lightblue;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
   border: 2px solid black;
+  width: 800px;
+}
+
+.box1 img {
+  display: block;
+  width: 100%;
 }
 
 .box2 {
+  display: flex;
+  width: 500px;
   background-color: beige;
-  font-size: 2rem;
+  font-size: 1rem;
   padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
@@ -51,9 +67,4 @@ p.center {
 
 .card {
   background-color: 0;
-}
-
-.img {
-  height: 500px;
-  text-align: center;
 }
