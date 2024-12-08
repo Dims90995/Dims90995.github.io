@@ -96,6 +96,7 @@ background-color: blue($color: #000000);
     align-items: stretch; 
     border: 2px solid black;
     border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
     margin: auto; 
     max-width: 90%; 
@@ -183,46 +184,3 @@ input[type="checkbox"] {
     justify-content: center;
   }
   // toggle-end
-
-
-  .tag {
-    background-color: grey;
-    width: 10px;
-  }
-
-  .flex {
-    display: flex; 
-    align-content: space-between;
-    align-items: center; 
-    justify-content: center; 
-    overflow: hidden; 
-  }
-
-  .opening-tag {
-    display: flex;
-    background-color: coral;
-    text-align: center;
-    align-content: center;
-
-
-  }
-
-  footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: baseline;
-    background-color: grey;
-    border: 5px solid black;
-    padding: 2ch;
-    
-  }
-
-
-  .reading-container {
-
-  }
-
-  .box {
-    border: 2ch solid black;
-    border-radius: 8px;
-  }
