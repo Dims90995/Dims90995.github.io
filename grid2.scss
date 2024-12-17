@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    gap: 1rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  /* Header */
+  .header {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #e8e8f7;
+    border-radius: 8px;
+  }
+  
+  .menu-icon, .search, .product-dropdown, .logo {
+    font-size: 1.2rem;
+  }
+  
+  /* Left Sidebar */
+  .left-sidebar {
+    grid-row: 2 / span 3;
+    background-color: #e8e8f7;
+    border-radius: 8px;
+    padding: 1rem;
+  
+    ul {
+      list-style: none;
+  
+      li {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+  
+      .active {
+        font-weight: bold;
+        color: #6a4aed;
+      }
+    }
+  }
+  
+  /* Main Content */
+  .main {
+    grid-column: 2 / span 2;
+    padding: 1rem;
+    background-color: #e8e8f7;
+    border-radius: 8px;
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Benefits Section */
+  .benefits {
+    grid-column: 2 / span 1;
+    padding: 1rem;
+    background-color: #f9e8e8;
+    border-radius: 8px;
+  
+    .title {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Tech Details Section */
+  .tech-details {
+    grid-column: 3 / span 1;
+    padding: 1rem;
+    background-color: #fdeedc;
+    border-radius: 8px;
+  
+    .title {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Footer Section */
+  .footer {
+    grid-column: 2 / span 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #e8e8f7;
+    border-radius: 8px;
+  
+    .pulse {
+      font-size: 1.2rem;
+    }
+  
+    .join {
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+  }
+  
