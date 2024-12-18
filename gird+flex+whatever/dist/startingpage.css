@@ -82,7 +82,6 @@ body {
   flex-wrap: wrap;
 }
 
-/* Ensure images fit properly */
 .card img {
   width: 100%;
   height: 340px;
